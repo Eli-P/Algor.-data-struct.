@@ -1,0 +1,3 @@
+/Users/eli.p561/CLionProjects/card_games/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/eli.p561/CLionProjects/card_games/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/eli.p561/CLionProjects/card_games/cmake-build-debug/CMakeFiles/card_games.dir

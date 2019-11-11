@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="card_games" targetName="card_games" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9ecc4d65-aca0-4041-bf53-e69ab7e9134d" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FavoritesManager">
+    <favorites_list name="card_games" />
+  </component>
+  <component name="ProjectId" id="1QT3c4RG7QX19QNprAjut8uypLb" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="card_games" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="card_games" TARGET_NAME="card_games" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="card_games" RUN_TARGET_NAME="card_games">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ecc4d65-aca0-4041-bf53-e69ab7e9134d" name="Default Changelist" comment="" />
+      <created>1567780834702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1567780834702</updated>
+      <workItem from="1567780837229" duration="1814000" />
+      <workItem from="1567788480729" duration="200000" />
+      <workItem from="1567797401552" duration="456000" />
+      <workItem from="1568124348876" duration="3946000" />
+      <workItem from="1568133202440" duration="148000" />
+      <workItem from="1568142634485" duration="337000" />
+      <workItem from="1568297158376" duration="3598000" />
+      <workItem from="1568306110057" duration="292000" />
+      <workItem from="1568315651769" duration="1936000" />
+      <workItem from="1568815543292" duration="3536000" />
+      <workItem from="1568819180807" duration="923000" />
+      <workItem from="1568824479014" duration="339000" />
+      <workItem from="1568834040359" duration="371000" />
+      <workItem from="1568988362444" duration="1054000" />
+      <workItem from="1568997339896" duration="317000" />
+      <workItem from="1569006884430" duration="376000" />
+      <workItem from="1569333982615" duration="4201000" />
+      <workItem from="1569352443030" duration="440000" />
+      <workItem from="1569506771841" duration="3663000" />
+      <workItem from="1569515896595" duration="506000" />
+      <workItem from="1569525411436" duration="914000" />
+      <workItem from="1569852508174" duration="3261000" />
+      <workItem from="1569860156132" duration="343000" />
+      <workItem from="1569868856934" duration="386000" />
+      <workItem from="1570025139096" duration="4351000" />
+      <workItem from="1570034151482" duration="518000" />
+      <workItem from="1570043786481" duration="416000" />
+      <workItem from="1570197914225" duration="3952000" />
+      <workItem from="1570206961815" duration="151000" />
+      <workItem from="1570216909254" duration="245000" />
+      <workItem from="1570562242857" duration="494000" />
+      <workItem from="1570716462064" duration="690000" />
+      <workItem from="1571061911844" duration="1721000" />
+      <workItem from="1571235101373" duration="1397000" />
+      <workItem from="1571243773437" duration="286000" />
+      <workItem from="1571253286133" duration="440000" />
+      <workItem from="1571753882467" duration="598000" />
+      <workItem from="1571762116554" duration="405000" />
+      <workItem from="1571771658924" duration="402000" />
+      <workItem from="1571925981859" duration="598000" />
+      <workItem from="1571934955934" duration="352000" />
+      <workItem from="1571944536168" duration="382000" />
+      <workItem from="1572271665958" duration="1315000" />
+      <workItem from="1572279376947" duration="329000" />
+      <workItem from="1572288305394" duration="409000" />
+      <workItem from="1572444614189" duration="606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>148</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>66</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>96</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Hand.cpp</url>
+          <line>27</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>15</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>16</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/main.cpp</url>
+          <line>17</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="players[0].hand[1]" language="ObjectiveC" />
+        <watch expression="players[0]" />
+        <watch expression="players" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
