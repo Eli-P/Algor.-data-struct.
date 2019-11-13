@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/eli.p561/CLionProjects/polynomial/Polynomial.cpp" "/Users/eli.p561/CLionProjects/polynomial/cmake-build-debug/CMakeFiles/polynomial.dir/Polynomial.cpp.o"
-  "/Users/eli.p561/CLionProjects/polynomial/main.cpp" "/Users/eli.p561/CLionProjects/polynomial/cmake-build-debug/CMakeFiles/polynomial.dir/main.cpp.o"
+  "/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/Polynomial.cpp" "/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug/CMakeFiles/polynomial.dir/Polynomial.cpp.o"
+  "/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/main.cpp" "/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug/CMakeFiles/polynomial.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

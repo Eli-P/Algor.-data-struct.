@@ -1,4 +1,4 @@
-# Install script for directory: /Users/eli.p561/CLionProjects/polynomial
+# Install script for directory: /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/eli.p561/CLionProjects/polynomial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

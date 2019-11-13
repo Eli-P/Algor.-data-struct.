@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eli.p561/CLionProjects/polynomial
+CMAKE_SOURCE_DIR = /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eli.p561/CLionProjects/polynomial/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/polynomial.dir/depend.make
@@ -59,29 +59,29 @@ include CMakeFiles/polynomial.dir/flags.make
 
 CMakeFiles/polynomial.dir/main.cpp.o: CMakeFiles/polynomial.dir/flags.make
 CMakeFiles/polynomial.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eli.p561/CLionProjects/polynomial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/polynomial.dir/main.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial.dir/main.cpp.o -c /Users/eli.p561/CLionProjects/polynomial/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/polynomial.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial.dir/main.cpp.o -c /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/main.cpp
 
 CMakeFiles/polynomial.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial.dir/main.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eli.p561/CLionProjects/polynomial/main.cpp > CMakeFiles/polynomial.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/main.cpp > CMakeFiles/polynomial.dir/main.cpp.i
 
 CMakeFiles/polynomial.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial.dir/main.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eli.p561/CLionProjects/polynomial/main.cpp -o CMakeFiles/polynomial.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/main.cpp -o CMakeFiles/polynomial.dir/main.cpp.s
 
 CMakeFiles/polynomial.dir/Polynomial.cpp.o: CMakeFiles/polynomial.dir/flags.make
 CMakeFiles/polynomial.dir/Polynomial.cpp.o: ../Polynomial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eli.p561/CLionProjects/polynomial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/polynomial.dir/Polynomial.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial.dir/Polynomial.cpp.o -c /Users/eli.p561/CLionProjects/polynomial/Polynomial.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/polynomial.dir/Polynomial.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/polynomial.dir/Polynomial.cpp.o -c /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/Polynomial.cpp
 
 CMakeFiles/polynomial.dir/Polynomial.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/polynomial.dir/Polynomial.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eli.p561/CLionProjects/polynomial/Polynomial.cpp > CMakeFiles/polynomial.dir/Polynomial.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/Polynomial.cpp > CMakeFiles/polynomial.dir/Polynomial.cpp.i
 
 CMakeFiles/polynomial.dir/Polynomial.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/polynomial.dir/Polynomial.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eli.p561/CLionProjects/polynomial/Polynomial.cpp -o CMakeFiles/polynomial.dir/Polynomial.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/Polynomial.cpp -o CMakeFiles/polynomial.dir/Polynomial.cpp.s
 
 # Object files for target polynomial
 polynomial_OBJECTS = \
@@ -95,7 +95,7 @@ polynomial: CMakeFiles/polynomial.dir/main.cpp.o
 polynomial: CMakeFiles/polynomial.dir/Polynomial.cpp.o
 polynomial: CMakeFiles/polynomial.dir/build.make
 polynomial: CMakeFiles/polynomial.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eli.p561/CLionProjects/polynomial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable polynomial"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable polynomial"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/polynomial.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +108,6 @@ CMakeFiles/polynomial.dir/clean:
 .PHONY : CMakeFiles/polynomial.dir/clean
 
 CMakeFiles/polynomial.dir/depend:
-	cd /Users/eli.p561/CLionProjects/polynomial/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eli.p561/CLionProjects/polynomial /Users/eli.p561/CLionProjects/polynomial /Users/eli.p561/CLionProjects/polynomial/cmake-build-debug /Users/eli.p561/CLionProjects/polynomial/cmake-build-debug /Users/eli.p561/CLionProjects/polynomial/cmake-build-debug/CMakeFiles/polynomial.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug /Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/cmake-build-debug/CMakeFiles/polynomial.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/polynomial.dir/depend
 
