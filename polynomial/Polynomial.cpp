@@ -10,6 +10,9 @@ Polynomial::Polynomial() {
     capacity = 0;
     degree = 0;
     coeff = new double[DEFAULT_CAPACITY];
+    for (int i = 0; i < DEFAULT_CAPACITY; ++i) {
+        coeff[i] = 0;
+    }
 
 }
 
@@ -34,9 +37,9 @@ Polynomial::~Polynomial() {
 }
 
 Polynomial &Polynomial::operator=(const Polynomial &source) {
-    delete  [] coeff;
-    if(this != &source) {
 
+    if(this != &source) {
+        delete  [] coeff;
         this->capacity = source.capacity;
         this->coeff = source.coeff;
         this->degree = source.degree;
@@ -119,8 +122,21 @@ double Polynomial::operator()(double x) const {
 }
 
 Polynomial &Polynomial::operator*(const Polynomial &p) {
-    unsigned int max = (p.degree > degree ? p.degree : degree);
-    return <#initializer#>;
+    //unsigned int max = (p.degree > degree ? p.degree : degree);
+    Polynomial *temp = new Polynomial;
+    for(unsigned int j = 0; j<= getDegree(); j++) {
+        for (unsigned int i = 0; i <= p.getDegree(); i++) {
+            temp->coeff[j+i] += coeff[j] * p.coeff[i];
+        }
+    }
+    /*
+    for(unsigned int g = 0; g<= max; g++){
+        coeff[g] = coeff[g] + temp->coeff[g];
+    }
+    */
+    temp->degree = getDegree() + p.getDegree();
+
+    return *temp;
 }
 
 Polynomial &Polynomial::operator+(const Polynomial &p) {

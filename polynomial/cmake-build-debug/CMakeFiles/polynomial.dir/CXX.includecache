@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/Polynomial.h
+cstdlib
+-
+
+/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/main.cpp
+iostream
+-
+Polynomial.h
+/Users/eli.p561/CLionProjects/Algor.-data-struct./polynomial/Polynomial.h
+
