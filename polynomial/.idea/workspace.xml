@@ -13,9 +13,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a8bd9189-8e86-4d19-9d73-47f7a7780f8d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polynomial.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Polynomial.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/polynomial.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/polynomial.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +80,8 @@
       <workItem from="1573501573834" duration="303000" />
       <workItem from="1573657631258" duration="4194000" />
       <workItem from="1573830163536" duration="3503000" />
-      <workItem from="1574175981974" duration="2218000" />
+      <workItem from="1574175981974" duration="2338000" />
+      <workItem from="1574348941209" duration="53000" />
     </task>
     <servers />
   </component>
