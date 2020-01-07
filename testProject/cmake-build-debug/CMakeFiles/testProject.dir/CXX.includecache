@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/Game.h
+iostream
+-
+
 /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/main.cpp
 iostream
+-
+Game.h
+/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/Game.h
+stdlib.h
+-
+zconf.h
 -
 
