@@ -9,6 +9,14 @@
 /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/Game.h
 iostream
 -
+vector
+-
+
+/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/enemies.h
+iostream
+-
+vector
+-
 
 /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/main.cpp
 iostream
@@ -19,4 +27,8 @@ stdlib.h
 -
 zconf.h
 -
+vector
+-
+enemies.h
+/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/enemies.h
 

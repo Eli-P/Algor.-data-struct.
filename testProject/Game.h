@@ -6,6 +6,8 @@
 #define TESTPROJECT_GAME_H
 
 #include <iostream>
+#include <vector>
+#include "enemies.h"
 using namespace std;
 
 class Game {
@@ -17,6 +19,9 @@ public:
     string health();
     string HP();
     string narrator(int);
+    void damage(int amount);
+    string voice(int, string);
+    string Door(int doorNumber, string narratorName);
 };
 
 

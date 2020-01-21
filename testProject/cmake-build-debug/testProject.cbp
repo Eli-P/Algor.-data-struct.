@@ -86,6 +86,12 @@
 		<Unit filename="/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/Game.h">
 			<Option target="testProject"/>
 		</Unit>
+		<Unit filename="/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/enemies.cpp">
+			<Option target="testProject"/>
+		</Unit>
+		<Unit filename="/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/enemies.h">
+			<Option target="testProject"/>
+		</Unit>
 		<Unit filename="/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/main.cpp">
 			<Option target="testProject"/>
 		</Unit>

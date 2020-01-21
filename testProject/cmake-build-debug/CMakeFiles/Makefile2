@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject
 CMakeFiles/testProject.dir/all:
 	$(MAKE) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/depend
 	$(MAKE) -f CMakeFiles/testProject.dir/build.make CMakeFiles/testProject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3 "Built target testProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4 "Built target testProject"
 .PHONY : CMakeFiles/testProject.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/testProject.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testProject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/cmake-build-debug/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/cmake-build-debug/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testProject.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/testProject.dir/rule

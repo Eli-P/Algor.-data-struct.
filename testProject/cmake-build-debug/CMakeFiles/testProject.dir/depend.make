@@ -4,6 +4,10 @@
 CMakeFiles/testProject.dir/Game.cpp.o: ../Game.cpp
 CMakeFiles/testProject.dir/Game.cpp.o: ../Game.h
 
+CMakeFiles/testProject.dir/enemies.cpp.o: ../enemies.cpp
+CMakeFiles/testProject.dir/enemies.cpp.o: ../enemies.h
+
 CMakeFiles/testProject.dir/main.cpp.o: ../Game.h
+CMakeFiles/testProject.dir/main.cpp.o: ../enemies.h
 CMakeFiles/testProject.dir/main.cpp.o: ../main.cpp
 
