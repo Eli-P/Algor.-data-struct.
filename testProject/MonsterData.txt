@@ -1,0 +1,9 @@
+Name:
+
+Element:
+
+Health:
+
+Power:
+
+Level:

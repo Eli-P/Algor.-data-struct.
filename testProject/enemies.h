@@ -16,6 +16,7 @@ private:
     string power = "0";
     string name = "";
     string element = "neutral";
+    vector<string> elements = {"Neutral", "Fire", "Water", "Earth", "Air"};
     vector<string> lvl5names = {"squeakers", "fuzzy", "monsoonling", "cracker", "botline", "mutter"};
     vector<string> lvl10names = {"Gruff", "Oinslinger", "Howler", "Blayn", "Beautler", "Erack"};
     vector<string> lvl15names = {"Andor Muzzler", "Power Node", "Blade Reaper", "Sanitor", "Edge Night", "Needler", "Haxmoor", "Seeker Baldes", "World Madder", "Knight of Wren", "Blasterd", "Feternyl", "Darvor", "Syren", "Shard of Darkness", "Hunters", "Artemis", "Dackter", "Were Master", "Fiend of Light", "Advents Bane"};

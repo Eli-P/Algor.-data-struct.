@@ -97,6 +97,7 @@ int main() {
                     cout << narratorName + " You sit there for..... a while" << endl;
                     sleep(4);
                     cout << narratorName + " Until something draws you in..." << endl;
+                    first_room = false;
                 }
             //}
             bool alive = true;
@@ -108,60 +109,124 @@ int main() {
                     cout << narratorName + "You Died.... " << endl;
                     et = false;
                 }
-                cout << Game.voice(2, narratorName) << endl;
-                int randm = rand() % 100 + 1;
-                if (randm <= 50){
-                    randm = rand() % 100 + 1;
-                    if (randm < 76){
-                        cout << Game.voice(8, narratorName) << endl;
-                    }else if (randm >74 && randm < 94){
-                        cout << Game.voice(9, narratorName) << endl;
-                    }else{
+                //cout << Game.voice(2, narratorName) << endl;
+
+                cin >> x;
+                if (x == "y") {
+                    int randm = rand() % 100 + 1;
+                    if (randm <= 50) {
                         randm = rand() % 100 + 1;
-                        if (randm < 81){
-                            Game.voice(10, narratorName);
-                        }else{
+                        if (randm < 76) {
+                            cout << Game.voice(8, narratorName) << endl;
+                        } else if (randm > 74 && randm < 94) {
+                            cout << Game.voice(9, narratorName) << endl;
+                        } else {
                             randm = rand() % 100 + 1;
-                            if (randm < 81){
-                                cout << Game.voice(13, narratorName) << endl;
-                                sleep(1);
-                                cout << Game.voice(14, narratorName) << endl;
-                            }else{
-                                cout << Game.voice(15, narratorName);
-                                monster.summon(enemy, "ALGOR WINDSLAYER", "fire", "200", "15", "20");
+                            if (randm < 81) {
+                                Game.voice(10, narratorName);
+                            } else {
+                                randm = rand() % 100 + 1;
+                                if (randm < 81) {
+                                    cout << Game.voice(13, narratorName) << endl;
+                                    sleep(1);
+                                    cout << Game.voice(14, narratorName) << endl;
+                                } else {
+                                    cout << Game.voice(15, narratorName);
+                                    monster.summon(enemy, "ALGOR WINDSLAYER", "fire", "200", "15", "20");
+                                }
                             }
                         }
+                    } else if (randm > 70 && randm < 100) {
+
+                    } else if (randm > 50 && randm < 71) {
+
                     }
-                } else if (randm > 70 && randm < 100){
+                    string command;
+                    cin >> command;
+                    if (command == "/damage") {
+                        Game.danger();
+                        cout << Game.voice(0, narratorName) << endl;
+                        Game.damage(5);
+                    } else if (command == "/health") {
+                        cout << narratorName + "Your health is: " + Game.health() << endl;
+                    } else if (command == "/summon") {
+                        cout << narratorName + "What is the Name you wish to give to this foe? " << endl;
+                        string name;
+                        cin >> name;
+                        cout << narratorName +
+                                "What is the Element you wish to give to this foe?(fire, water, earth, air) " << endl;
+                        string element;
+                        cin >> element;
+                        cout << narratorName + "What is the Health you wish to give to this foe?(1-20) " << endl;
+                        string health;
+                        cin >> health;
+                        cout << narratorName + "What is the Power you wish to give to this foe?(1-20) " << endl;
+                        string power;
+                        cin >> power;
+                        cout << narratorName + "What is the Level you wish to give to this foe?(1-20)" << endl;
+                        string level;
+                        cin >> level;
+                        monster.summon(enemy, name, element, health, power, level);
+                    }
+                }else{
+                    cout << narratorName + " You sit there for..... a while" << endl;
+                    sleep(4);
+                    cout << narratorName + " Until something draws you in..." << endl;
 
-                } else if (randm > 50 && randm < 71){
+                    int randm = rand() % 100 + 1;
+                    if (randm <= 50) {
+                        randm = rand() % 100 + 1;
+                        if (randm < 76) {
+                            cout << Game.voice(8, narratorName) << endl;
+                        } else if (randm > 74 && randm < 94) {
+                            cout << Game.voice(9, narratorName) << endl;
+                        } else {
+                            randm = rand() % 100 + 1;
+                            if (randm < 81) {
+                                Game.voice(10, narratorName);
+                            } else {
+                                randm = rand() % 100 + 1;
+                                if (randm < 81) {
+                                    cout << Game.voice(13, narratorName) << endl;
+                                    sleep(1);
+                                    cout << Game.voice(14, narratorName) << endl;
+                                } else {
+                                    cout << Game.voice(15, narratorName);
+                                    monster.summon(enemy, "ALGOR WINDSLAYER", "fire", "200", "15", "20");
+                                }
+                            }
+                        }
+                    } else if (randm > 70 && randm < 100) {
 
-                }
-                string command;
-                cin >> command;
-                if (command == "/damage"){
-                    Game.danger();
-                    cout << Game.voice(0, narratorName) << endl;
-                    Game.damage(5);
-                }else if (command == "/health"){
-                    cout << narratorName + "Your health is: " + Game.health() << endl;
-                }else if (command == "/summon"){
-                    cout << narratorName + "What is the Name you wish to give to this foe? " << endl;
-                    string name;
-                    cin >> name;
-                    cout << narratorName + "What is the Element you wish to give to this foe?(fire, water, earth, air) " << endl;
-                    string element;
-                    cin >> element;
-                    cout << narratorName + "What is the Health you wish to give to this foe?(1-20) " << endl;
-                    string health;
-                    cin >> health;
-                    cout << narratorName + "What is the Power you wish to give to this foe?(1-20) " << endl;
-                    string power;
-                    cin >> power;
-                    cout << narratorName + "What is the Level you wish to give to this foe?(1-20)" << endl;
-                    string level;
-                    cin >> level;
-                    monster.summon(enemy, name, element, health,  power, level);
+                    } else if (randm > 50 && randm < 71) {
+
+                    }
+                    string command;
+                    cin >> command;
+                    if (command == "/damage") {
+                        Game.danger();
+                        cout << Game.voice(0, narratorName) << endl;
+                        Game.damage(5);
+                    } else if (command == "/health") {
+                        cout << narratorName + "Your health is: " + Game.health() << endl;
+                    } else if (command == "/summon") {
+                        cout << narratorName + "What is the Name you wish to give to this foe? " << endl;
+                        string name;
+                        cin >> name;
+                        cout << narratorName + "What is the Element you wish to give to this foe?(fire, water, earth, air) " << endl;
+                        string element;
+                        cin >> element;
+                        cout << narratorName + "What is the Health you wish to give to this foe?(1-20) " << endl;
+                        string health;
+                        cin >> health;
+                        cout << narratorName + "What is the Power you wish to give to this foe?(1-20) " << endl;
+                        string power;
+                        cin >> power;
+                        cout << narratorName + "What is the Level you wish to give to this foe?(1-20)" << endl;
+                        string level;
+                        cin >> level;
+                        monster.summon(enemy, name, element, health, power, level);
+                    }
                 }
             }
 

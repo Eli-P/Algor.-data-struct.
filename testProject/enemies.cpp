@@ -64,17 +64,48 @@ string enemies::int_to_string(int num) {
 
 void enemies::Monster (vector<string> enemy, int difficulty) {
     int randm = rand()% 5 + 1;
-    string name;
-    string element;
-    string power;
-    string health;
-    string level;
+//    string name;
+//    string element;
+//    string power;
+//    string health;
+//    string level;
     if (difficulty < 6){
-
+        int ran = rand() % 6 +1;
+        name = lvl5names.at(ran);
+        ran = rand() % 5 +1;
+        element = elements.at(ran);
+        ran = rand() % 5 +1;
+        power = ran;
+        ran = rand() % 5 +1;
+        health = ran * rand() % 3 + 1;
+        ran = rand() % 5 + 1;
+        level = ran;
+    }else if (difficulty < 11){
+        int ran = rand() % 6 +1;
+        name = lvl10names.at(ran);
+        ran = rand() % 5 +1;
+        element = elements.at(ran);
+        ran = rand() % 5 +1;
+        power = ran;
+        ran = rand() % 5 +1;
+        health = ran * rand() % 3 + 1;
+        ran = rand() % 5 + 1;
+        level = ran;
+    }else {
+        int ran = rand() % 21 + 1;
+        name = lvl15names.at(ran);
+        ran = rand() % 5 + 1;
+        element = elements.at(ran);
+        ran = rand() % 5 + 1;
+        power = ran;
+        ran = rand() % 5 + 1;
+        health = ran * rand() % 3 + 1;
+        ran = rand() % 5 + 1;
+        level = ran;
     }
+
     enemy.push_back(name);
     enemy.push_back(element);
-
     enemy.push_back(power);
     enemy.push_back(health);
     enemy.push_back(level);

@@ -6,11 +6,17 @@
 
 #IncludeRegexTransform: 
 
+/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/Game.cpp
+Game.h
+/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/Game.h
+
 /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/Game.h
 iostream
 -
 vector
 -
+enemies.h
+/Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/enemies.h
 
 /Users/eli.p561/CLionProjects/Algor.-data-struct./testProject/enemies.h
 iostream

@@ -3,4 +3,4 @@ project(testProject)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(testProject main.cpp Game.cpp Game.h enemies.cpp enemies.h)
+add_executable(testProject main.cpp Game.cpp Game.h enemies.cpp enemies.h MonsterData.txt)

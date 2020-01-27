@@ -83,7 +83,7 @@ string Game::voice(int speech, string narratorName) {
     }else if(speech == 1){
         return narratorName + " Sometimes I wonder...";
     }else if(speech == 2){
-        return narratorName + " There is a door in front of you, do you choose to enter? ";
+        return narratorName + " There is a door in front of you, do you choose to enter?(y/n) ";
     }else if(speech == 3){
         return narratorName + " And you enter aaannnddd......";
     }else if(speech == 4){
