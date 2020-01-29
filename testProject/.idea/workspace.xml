@@ -12,21 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9ba72671-f1e4-4284-bff9-5454d0233eee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MonsterData.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Game.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Game.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/Game.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/Game.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/enemies.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/enemies.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/testProject.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/testProject" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/testProject" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/testProject.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/testProject.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemies.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/enemies.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/enemies.h" beforeDir="false" afterPath="$PROJECT_DIR$/enemies.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +90,7 @@
       <workItem from="1579645738172" duration="2087000" />
       <workItem from="1579792223629" duration="2139000" />
       <workItem from="1580137538663" duration="1223000" />
+      <workItem from="1580310548336" duration="504000" />
     </task>
     <servers />
   </component>
