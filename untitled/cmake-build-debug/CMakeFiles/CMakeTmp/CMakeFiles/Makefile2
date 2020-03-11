@@ -34,6 +34,9 @@ SUFFIXES =
 .SUFFIXES: .hpux_make_needs_suffix_list
 
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Suppress display of executed commands.
 $(VERBOSE).SILENT:
 
@@ -59,55 +62,48 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/eli.p561/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /Users/eli.p561/CLionProjects/Algor.-data-struct./untitled/cmake-build-debug/CMakeFiles/CMakeTmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/eli.p561/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/eli.p561/CLionProjects/Algor.-data-struct./untitled/cmake-build-debug/CMakeFiles/CMakeTmp
 
 #=============================================================================
-# Target rules for target CMakeFiles/untitled.dir
+# Target rules for target CMakeFiles/cmTC_45af9.dir
 
 # All Build rule for target.
-CMakeFiles/untitled.dir/all:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/depend
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eli.p561/CLionProjects/untitled/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target untitled"
-.PHONY : CMakeFiles/untitled.dir/all
+CMakeFiles/cmTC_45af9.dir/all:
+	$(MAKE) -f CMakeFiles/cmTC_45af9.dir/build.make CMakeFiles/cmTC_45af9.dir/depend
+	$(MAKE) -f CMakeFiles/cmTC_45af9.dir/build.make CMakeFiles/cmTC_45af9.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/eli.p561/CLionProjects/Algor.-data-struct./untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles --progress-num=1,2 "Built target cmTC_45af9"
+.PHONY : CMakeFiles/cmTC_45af9.dir/all
 
 # Include target in all.
-all: CMakeFiles/untitled.dir/all
+all: CMakeFiles/cmTC_45af9.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/untitled.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eli.p561/CLionProjects/untitled/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/untitled.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eli.p561/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/untitled.dir/rule
+CMakeFiles/cmTC_45af9.dir/rule:
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eli.p561/CLionProjects/Algor.-data-struct./untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/cmTC_45af9.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/eli.p561/CLionProjects/Algor.-data-struct./untitled/cmake-build-debug/CMakeFiles/CMakeTmp/CMakeFiles 0
+.PHONY : CMakeFiles/cmTC_45af9.dir/rule
 
 # Convenience name for target.
-untitled: CMakeFiles/untitled.dir/rule
+cmTC_45af9: CMakeFiles/cmTC_45af9.dir/rule
 
-.PHONY : untitled
-
-# clean rule for target.
-CMakeFiles/untitled.dir/clean:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/clean
-.PHONY : CMakeFiles/untitled.dir/clean
+.PHONY : cmTC_45af9
 
 # clean rule for target.
-clean: CMakeFiles/untitled.dir/clean
+CMakeFiles/cmTC_45af9.dir/clean:
+	$(MAKE) -f CMakeFiles/cmTC_45af9.dir/build.make CMakeFiles/cmTC_45af9.dir/clean
+.PHONY : CMakeFiles/cmTC_45af9.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/cmTC_45af9.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
-
-# Special rule to run CMake to check the build system integrity.
-# No rule that depends on this can have commands that come from listfiles
-# because they might be regenerated.
-cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
-.PHONY : cmake_check_build_system
 

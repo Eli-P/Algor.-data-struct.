@@ -109,6 +109,7 @@ int main() {
                     cout << narratorName + "You Died.... " << endl;
                     et = false;
                 }
+
                 //cout << Game.voice(2, narratorName) << endl;
 
                 cin >> x;
@@ -118,6 +119,10 @@ int main() {
                         randm = rand() % 100 + 1;
                         if (randm < 76) {
                             cout << Game.voice(8, narratorName) << endl;
+                            sleep(1);
+                            monster.Monster2(enemy, 1);
+                            cout << "You Are Approached By: " << enemy[0] << endl << "Element: " << enemy[2] << endl << "Level: " << enemy[4] << endl << "Power: " << enemy[2] << endl << "Health: " << enemy[3] << endl;
+                            cout << enemy[0];
                         } else if (randm > 74 && randm < 94) {
                             cout << Game.voice(9, narratorName) << endl;
                         } else {
@@ -132,6 +137,7 @@ int main() {
                                     cout << Game.voice(14, narratorName) << endl;
                                 } else {
                                     cout << Game.voice(15, narratorName);
+                                    sleep(1);
                                     monster.summon(enemy, "ALGOR WINDSLAYER", "fire", "200", "15", "20");
                                 }
                             }
@@ -167,11 +173,13 @@ int main() {
                         string level;
                         cin >> level;
                         monster.summon(enemy, name, element, health, power, level);
+                    } else if (command == "q" || command == "Q"){
+                        alive = false;
                     }
                 }else{
-                    cout << narratorName + " You sit there for..... a while" << endl;
-                    sleep(4);
-                    cout << narratorName + " Until something draws you in..." << endl;
+                    //cout << narratorName + " You sit there for..... a while" << endl;
+                    //sleep(4);
+                    //cout << narratorName + " Until something draws you in..." << endl;
 
                     int randm = rand() % 100 + 1;
                     if (randm <= 50) {

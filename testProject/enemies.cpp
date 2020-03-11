@@ -72,13 +72,13 @@ void enemies::Monster (vector<string> enemy, int difficulty) {
     if (difficulty < 6){
         int ran = rand() % 6 +1;
         name = lvl5names.at(ran);
-        ran = rand() % 5 +1;
+        ran = rand() % 5;
         element = elements.at(ran);
-        ran = rand() % 5 +1;
+        ran = rand() % 5;
         power = ran;
-        ran = rand() % 5 +1;
+        ran = rand() % 5;
         health = ran * rand() % 3 + 1;
-        ran = rand() % 5 + 1;
+        ran = rand() % 5;
         level = ran;
     }else if (difficulty < 11){
         int ran = rand() % 6 +1;
@@ -109,4 +109,49 @@ void enemies::Monster (vector<string> enemy, int difficulty) {
     enemy.push_back(power);
     enemy.push_back(health);
     enemy.push_back(level);
+}
+
+vector<string> enemies::Monster2(vector<string> enemy, int difficulty) {
+    int randm = rand()% 5 + 1;
+    if (difficulty < 6){
+        int ran = rand() % 6 +1;
+        name = lvl5names.at(ran);
+        ran = rand() % 5;
+        element = elements.at(ran);
+        ran = rand() % 5;
+        power = ran;
+        ran = rand() % 5;
+        health = ran * rand() % 3 + 1;
+        ran = rand() % 5;
+        level = ran;
+    }else if (difficulty < 11){
+        int ran = rand() % 6 +1;
+        name = lvl10names.at(ran);
+        ran = rand() % 5 +1;
+        element = elements.at(ran);
+        ran = rand() % 5 +1;
+        power = ran;
+        ran = rand() % 5 +1;
+        health = ran * rand() % 3 + 1;
+        ran = rand() % 5 + 1;
+        level = ran;
+    }else {
+        int ran = rand() % 21 + 1;
+        name = lvl15names.at(ran);
+        ran = rand() % 5 + 1;
+        element = elements.at(ran);
+        ran = rand() % 5 + 1;
+        power = ran;
+        ran = rand() % 5 + 1;
+        health = ran * rand() % 3 + 1;
+        ran = rand() % 5 + 1;
+        level = ran;
+    }
+
+    enemy.push_back(name);
+    enemy.push_back(element);
+    enemy.push_back(power);
+    enemy.push_back(health);
+    enemy.push_back(level);
+    return enemy;
 }
